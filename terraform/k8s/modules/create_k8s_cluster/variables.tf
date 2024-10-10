@@ -1,15 +1,16 @@
-variable cluster_name {
+variable service_account_id {
   type        = string
 }
 
-variable network_name {
+variable network_id {
   type        = string
 }
 
-variable subnet_name {
+variable subnet_zone {
   type        = string
 }
 
-variable service_account_name {
+variable subnet_id {
   type        = string
 }
+

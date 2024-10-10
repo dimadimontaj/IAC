@@ -1,15 +1,11 @@
-variable subnet_name {
-  type        = string
-}
-
 variable subnet_devposition {
-  type        = string
+  type        = list
 }
 
 variable subnet_zone {
   type        = string
 }
 
-variable network_name {
+variable network_id {
   type        = string
 }
